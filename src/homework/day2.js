@@ -1,6 +1,6 @@
 /* 2.Ders Ödevi */
 
-//Ödev 1
+//Soru 1
 function findPrime(...numbers) {
     numbers.map((number, index) => {
         number % index == 0 ? console.log(`${number} sayısı asal`)
@@ -12,7 +12,7 @@ findPrime(2, 5, 8, 21, 13);
 findPrime(3, 5)
 console.log("-".repeat(10))
 
-//Ödev 2
+//Soru 2
 function friendNumbers(number1, number2) {
     let sum1 = 0, sum2 = 0;
     for (let i = 1; i < number1; i++) {
@@ -39,7 +39,7 @@ friendNumbers(124, 150)
 friendNumbers(220, 284)
 console.log("-".repeat(10))
 
-//Ödev 3
+//Soru 3
 function perfectNumbers() {
     let sum = 0;
     for (let i = 1; i < 1000; i++) {
@@ -54,7 +54,7 @@ function perfectNumbers() {
 perfectNumbers()
 console.log("-".repeat(10))
 
-//Ödev 4
+//Soru 4
 function listPrimeNumber() {
     let primes = []
     for (let i = 1; i < 1000; i++)
